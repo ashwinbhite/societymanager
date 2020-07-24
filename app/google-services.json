@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "692443456646",
+    "firebase_url": "https://societymanager-2bb49.firebaseio.com",
+    "project_id": "societymanager-2bb49",
+    "storage_bucket": "societymanager-2bb49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692443456646:android:0f49109f67c4b1d0781d07",
+        "android_client_info": {
+          "package_name": "com.ash.societymanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692443456646-qbt6h2feemnma3cglf6cu944ntk73ki0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDouT8MUzHXTtn8wx30kPgIFPMDq9MO_dE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692443456646-qbt6h2feemnma3cglf6cu944ntk73ki0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

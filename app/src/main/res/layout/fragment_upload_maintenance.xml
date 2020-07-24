@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UploadMaintenaceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"></View>
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:text="Please choose between these two options."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"></View>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Choose FlatNo"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/spinner_flatno"
+            android:layout_marginLeft="15dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.AppCompatSpinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Enter Amount"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edtTxt_amount"
+            android:layout_marginLeft="15dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content">
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_upload_maintenance"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        android:background="@color/colorAccent"
+        android:text="Add" />
+
+</LinearLayout>

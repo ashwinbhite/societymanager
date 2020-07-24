@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SocietyManager</string>
+    <string name="title_home">Messages</string>
+    <string name="title_dashboard">Maintenances</string>
+    <string name="title_notifications">Expenses</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_choose_action">Society Manager</string>
+    <string name="tab_text_1">Maintenance</string>
+    <string name="tab_text_2">Messages</string>
+    <string name="appbar_scrolling_view_behavior">appbar_scrolling_view_behavior</string>
+
+</resources>
